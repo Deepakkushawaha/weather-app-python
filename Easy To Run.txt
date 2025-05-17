@@ -1,0 +1,101 @@
+ 🌤️ Weather App in Python
+
+A simple and beautiful weather app built using Python and Tkinter. It fetches real-time weather data from OpenWeatherMap and displays it in a clean UI.
+
+---
+
+🖼️ Features
+
+- Beautiful background and dynamic weather icons
+- Live weather info: Temperature, Wind, Humidity
+- Input any city name to get weather
+- Error handling for invalid cities or keys
+- Uses OpenWeatherMap API
+
+🧰 Tech Stack
+
+- Python 3
+- Tkinter (for GUI)
+- Pillow (for image handling)
+- Requests (for API calls)
+
+
+🚀 Installation Guide
+
+ 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/weather-app-python.git
+cd weather-app-python
+
+2. Install Dependencies
+bash
+Copy
+Edit
+
+pip install -r requirements.txt
+
+3. Create Your OpenWeatherMap API Key
+To fetch live weather data, you'll need a free API key from OpenWeatherMap.
+
+🌐 Website:
+https://openweathermap.org/api
+
+📝 Steps:
+Visit the website and click Sign Up
+
+After verifying your email, log in
+
+Go to your profile → API Keys
+
+Copy the default key or create a new one
+
+It may take 5–10 minutes to activate
+
+4. Add Your API Key to the Code
+In weather_gui.py, find this line:
+
+python
+Copy
+Edit
+api_key = "your_api_key_here"
+Replace it with your actual API key:
+
+python
+Copy
+Edit
+api_key = "your_real_api_key"
+5. Run the App
+bash
+Copy
+Edit
+python weather_gui.py
+✅ Enter a city name (like Delhi or London) and see real-time weather info!
+
+
+
+
+📦 Folder Structure
+
+weather-app-python/
+├── weather_gui.py
+├── README.md
+├── requirements.txt
+└── assets/
+    ├── background.png
+    ├── sun.png
+    ├── cloud.png
+    ├── mist.png
+    └── rain.png
+
+📄 License
+MIT License — free to use and modify.
+
+
+
+
+
+
+
+
+
